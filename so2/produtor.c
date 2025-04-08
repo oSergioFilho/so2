@@ -4,8 +4,7 @@
 #include <string.h>
 #include <sys/shm.h>     // Biblioteca para memória compartilhada
 #include <sys/sem.h>     // Biblioteca para semáforos
-#include "shm_com.h"     // Struct da memória compartilhada e tamanhos
-#include "semun.h"       // Definição da união semun para uso no semctl
+#include "shm_com.h"     // Struct da memória compartilhada e tamanhos e Definição da união semun para uso no semctl
 
 // Declaração das funções auxiliares de semáforo
 static int up_vazio(void);
